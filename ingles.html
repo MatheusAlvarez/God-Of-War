@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css">
+        <title>God of War</title>
+    </head>
+
+    <body>
+        <div class="main">
+            <ul>
+                <li><a>Start the demo</a></li>
+
+                <li><a>Settings</a>
+                <ul>
+                    <li><a>Control</a></li>
+                    <li><a>Camera</a></li>
+                    <li><a>Screen</a></li>
+                </ul>
+                </li>
+
+                <li><a>About Us</a></li>
+
+                <li><a>Languages</a>
+                    <ul>
+                        <li><a href="index.html">Portuguese Br</a></li>
+                        <li><a href="espanhol.html">Spanish</a></li>
+                        <li><a href="ingles.html">English</a></li>
+                    </ul>
+                </li>
+
+                <li><a>Difficulty</a>
+                <ul>
+                    <li><a>God of War</a></li>
+                    <li><a>Mortal</a></li>
+                    <li><a>Beginner</a></li>
+                </ul>
+                </li>
+                <li><a>Buy the game</a></li>
+            </ul>
+        </div>
+        <div class="center">
+            <img class="img" src="img/logo.png" alt="">
+        </div>
+        <div class="center">
+            <img class="kratos" src="img/kratos.png" alt="" onclick="music()">
+        </div>
+        <script>
+            function music(){
+                var audio= new Audio();
+                audio.src= "img/kratos2.mp3";
+                audio.play();
+            }
+        </script>
+    </body>
+</html>

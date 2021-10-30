@@ -1,0 +1,109 @@
+body{
+    background: url(../img/war1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center{
+    text-align: center;
+    align-items: center;
+}
+
+.mar{
+    margin: 20px;
+    position: relative;
+}
+.sony{
+    width: 100px;
+    margin: 30px;
+    display: block;
+}
+
+.main{
+    margin-left: 4.8%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li{
+    float: left;
+    background-color: black;
+    width: 200px;
+    height: 40px;
+    opacity: 0.9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1em;
+}
+
+ul li a{
+    text-decoration: none;
+    color:  white;
+    display: block;
+}
+
+ul li a:hover{
+    background-color: red;
+}
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+.img{
+    width: 600px;
+}
+
+.kratos{
+    width: 500px;
+    text-align: center;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.kratos:hover{
+    transform: .5s;
+    opacity: 1;
+}
+
+@media (min-width: 1600px) {
+    .kratos{
+        width: 550px;
+        text-align: center;
+        opacity: 0.9;
+        cursor: pointer;
+        margin: 30px 0px 0px 0px;
+    }
+    
+    .kratos:hover{
+        transform: .5s;
+        opacity: 1;
+    }
+
+    .img{
+        width: 700px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    ul li{
+        float: left;
+        background-color: black;
+        width: 240px;
+        height: 50px;
+        opacity: 0.9;
+        line-height: 45px;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .main{
+        margin-left: 8.5%;
+    }
+}
